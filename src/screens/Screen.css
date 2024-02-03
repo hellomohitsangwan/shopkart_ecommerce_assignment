@@ -1275,3 +1275,14 @@ html {
   .bld {
     font-weight: bolder !important;
   }
+
+  .pdr {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+  }
+  .pdrp {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }

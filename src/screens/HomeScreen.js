@@ -6,8 +6,6 @@ import Loader from "../components/Loader";
 //redux files
 import { listProducts } from "../actions/productAction";
 import { useDispatch, useSelector } from "react-redux";
-import Slider from "../components/Slider";
-import downArrow from "../assets/downArrow.svg";
 import Footer from "../components/Footer";
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
@@ -27,19 +25,8 @@ const HomeScreen = ({ match }) => {
   return (
     <>
     <div className="container">
-      {/* <Slider /> */}
-      {/* <div className="allProducts-title">
-        <p>All Products</p>
-        <button className="btn" onClick={executeScroll}>
-          <img src={downArrow} alt="" className="arrow" />
-        </button>
-        <div className="ref" ref={myRef}></div>
-        <div className="gap1"></div>
-      </div> */}
       {products?.length !== 0 ? (
         <div className="latest">
-          {/* <p className="latest-product">Latest Products</p> */}
-          <div className="underline1"></div>
         </div>
       ) : (
         !loading && (
