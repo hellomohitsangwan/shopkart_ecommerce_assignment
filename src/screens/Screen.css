@@ -924,6 +924,8 @@ footer p {
   background: #6d8b56;
 }
 .cart-remove {
+  /* color: #007bff; */
+  
   z-index: 9999;
   position: relative;
   top: -60px;
@@ -931,7 +933,7 @@ footer p {
   color: #000000;
   width: 124px;
   height: 40px;
-  background: #cb5d4e;
+  background: #007bff;
   border-radius: 10px;
   transition: all 0.3s ease;
 }

@@ -19,17 +19,12 @@ const ProductScreen = ({ match, history }) => {
   const [qty, setQty] = useState(1);
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState("");
-  const [recom, setRecom] = useState("");
-  const [rl, srl] = useState(false);
 
   const userLogin = useSelector((state) => state.userLogin);
-  const { userInfo } = userLogin;
 
   const productReviewCreate = useSelector((state) => state.productReviewCreate);
   const {
     success: successProductReview,
-    loading: loadingProductReview,
-    error: errorProductReview,
   } = productReviewCreate;
 
   const dispatch = useDispatch();
@@ -45,16 +40,6 @@ const ProductScreen = ({ match, history }) => {
 
   const submitHandler = () => {
     history.push(`/cart/${match.params.id}?qty=${qty}`);
-  };
-
-  const reviewSubmitHandler = (e) => {
-    e.preventDefault();
-    dispatch(
-      createProductReview(match.params.id, {
-        rating,
-        comment,
-      })
-    );
   };
   return (
     <>
