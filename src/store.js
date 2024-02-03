@@ -13,6 +13,8 @@ import {
   productReviewCreateReducer,
 } from "./reducer/productListReducer";
 
+import { favouriteReducer } from "./reducer/favouriteReducer";
+
 import { cartReducer } from "./reducer/cartReducer";
 
 const reducer = combineReducers({
@@ -21,6 +23,8 @@ const reducer = combineReducers({
   userDetails: userDetailReducer,
 
   cart: cartReducer,
+  
+  favourite: favouriteReducer,
 
   productList: productListReducer,
   productDetails: productDetailReducer,
