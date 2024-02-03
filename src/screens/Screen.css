@@ -925,7 +925,7 @@ footer p {
 }
 .cart-remove {
   /* color: #007bff; */
-  
+
   z-index: 9999;
   position: relative;
   top: -60px;
@@ -933,7 +933,7 @@ footer p {
   color: #000000;
   width: 124px;
   height: 40px;
-  background: #007bff;
+  background: red;
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -1007,12 +1007,13 @@ footer p {
 }
 
 .checkout-btn {
+  margin-top: 24px;
   position: relative;
   right: -55px;
   font-size: 18px;
   width: 236px;
   height: 37px;
-  background: #6d8b56;
+  background: #007bff;
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -1233,58 +1234,63 @@ footer p {
   background-color: #6d8b56;
 }
 
-
 html {
-    color: pink;
-  }
-  
+  color: pink;
+}
 
+.m-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
 
+.m-wrapper-left {
+  width: 848px;
+}
 
+.m-wrapper-right {
+  margin-right: 8px;
+}
 
+.mwlf {
+  align-items: end;
+}
 
-  .m-wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    margin: auto;
-    justify-content: space-between;
-  }
+.css-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-size: 16px;
+}
+.hlt {
+  color: #007bff;
+}
+.bld {
+  font-weight: bolder !important;
+}
 
-  .m-wrapper-left {
-    width: 848px;
-  }
+.pdr {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.pdrp {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
 
-  .m-wrapper-right {
-    margin-right: 8px;
-  }
-
-  .mwlf {
-    align-items: end;
-  }
-
-  .css-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    font-size: 16px;
-  }
-  .hlt {
-    color: #007bff;
-  }
-  .bld {
-    font-weight: bolder !important;
-  }
-
-  .pdr {
-    display: flex;
-    flex-direction: column;
-    padding-left: 40px;
-
-  }
-  .pdrp {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
+.mi {
+  width: 164px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+.cm {
+  z-index: 10000;
+}
