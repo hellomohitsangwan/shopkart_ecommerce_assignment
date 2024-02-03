@@ -86,7 +86,7 @@ const Register = ({ history }) => {
         <Col>
           Have an account?
           <Link to={"/login"}>
-            <span className="login">Log in</span>
+            <span className="login"  style={{ color: "#1d73e8" }}>Log in</span>
           </Link>
         </Col>
       </Row>
