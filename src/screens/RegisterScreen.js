@@ -32,7 +32,9 @@ const Register = ({ history }) => {
     }
   };
   return (
-    <FormContainer>
+    // <FormContainer>
+    <div className="main-wrapper">
+       <div className="register-wrapper justify-content-md-center">
       <h1>Sign Up</h1>
       {message && <Message variant="danger" children={message} />}
       {error && <Message variant="danger" children={error} />}
@@ -76,14 +78,6 @@ const Register = ({ history }) => {
           ></Form.Control>
         </Form.Group>
         <div className="form-gap"></div>
-        <Form.Group controlId="isadmin">
-          <Form.Check
-            type="checkbox"
-            label="Register as an Admin"
-            checked={isAdmin}
-            onChange={(e) => setIsAdmin(e.target.checked)}
-          ></Form.Check>
-        </Form.Group>
         <Button className="signUp" type="submit" variant="primary">
           Sign Up
         </Button>
@@ -96,7 +90,9 @@ const Register = ({ history }) => {
           </Link>
         </Col>
       </Row>
-    </FormContainer>
+     </div>
+     </div>
+    // {/* </FormContainer> */}
   );
 };
 

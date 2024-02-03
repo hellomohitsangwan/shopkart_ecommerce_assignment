@@ -7,6 +7,27 @@ footer
   background-color: #0478ed;
   height: 80px;
 }
+body { background-color: #e5eef8; }
+
+.signUp {
+  margin-top: 20px;
+  background-color: #1d73e8;
+  border-color: #1d73e8;
+  border-radius: 40px;
+}
+
+.register-wrapper {
+  margin-top: 80px;
+  width: 50%;
+  background-color: white;
+  border-radius: 32px;
+  padding: 40px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  margin-left: auto;
+  margin-right: auto;
+}
 
   /* main footer */
   .MainFooter {
