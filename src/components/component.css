@@ -3,6 +3,11 @@ footer
     font-weight: bold;
   }
   
+.navbar {
+  background-color: #0478ed;
+  height: 80px;
+}
+
   /* main footer */
   .MainFooter {
     /* position: fixed; */
