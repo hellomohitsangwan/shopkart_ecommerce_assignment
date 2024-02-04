@@ -6,6 +6,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
 import FavouriteScreen from "./screens/FavouriteScreen";
+import CompareScreen from "./screens/CompareScreen";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/product/:id" component={ProductScreen} />
         <Route path="/cart/:id?" component={CartScreen} />
         <Route path="/favourites/:id?" component={FavouriteScreen} />
+        <Route path="/compare" component={CompareScreen} />
       </main>
     </Router>
   );
