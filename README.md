@@ -72,3 +72,21 @@ API Link: [Shopkart backend API](https://github.com/hellomohitsangwan/shopkart-b
 
 
 4. Visit http://localhost:3000 to access the Shopkart application.
+
+
+## Improvements to Submission
+- **Testing: Expand test coverage by incorporating unit tests, integration tests, or end-to-end tests. This will help catch bugs early in development and ensure the reliability of the application.**
+
+
+ - **Optimization: Optimize the application for performance by lazy-loading components, optimizing images, and minimizing unnecessary renders. This will result in a smoother user experience, especially for users on slower networks or less powerful devices.**
+
+ ## If Allocated More Time
+
+ - **Product Filtering and Sorting: Add functionality for users to filter and sort products.**
+
+ - **User Profile: Create a user profile page for managing orders, favorites, and personal information.**
+
+ - **Chatbot: Create a chatbot to give our users faster and easier access.**
+
+ - **Voice assistant: Include a voice-activated assistant to help you navigate the entire app.**
+ 
