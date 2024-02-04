@@ -41,6 +41,10 @@ const ProductScreen = ({ match, history }) => {
   const submitHandler = () => {
     history.push(`/cart/${match.params.id}?qty=${qty}`);
   };
+
+  const favSubmitHandler = () => {
+    history.push(`/favourites/${match.params.id}?qty=${qty}`);
+  }
   return (
     <>
       {loading ? (
@@ -83,6 +87,15 @@ const ProductScreen = ({ match, history }) => {
                       disabled={product?.product?.countInStock === 0}
                     >
                       Add To Cart
+                    </Button>
+
+                    <Button
+                      onClick={favSubmitHandler}
+                      className="adc"
+                      type="button"
+                      disabled={product?.product?.countInStock === 0}
+                    >
+                      Add To Favourite
                     </Button>
 
 

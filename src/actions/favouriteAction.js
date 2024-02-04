@@ -5,8 +5,9 @@ import {
 } from "../constants/favouriteConstants";
 
 export const addToFavourite = (id, qty) => async (dispatch, getState) => {
-    
+    console.log("before")
   const { data } = await axios.get(`https://procommerce.onrender.com/api/products/${id}`);
+  console.log("after")
   dispatch({
     type: FAVOURITE_ADD_ITEM,
     payload: {

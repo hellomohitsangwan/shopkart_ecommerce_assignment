@@ -22,9 +22,11 @@ const reducer = combineReducers({
   userRegister: userRegisterReducer,
   userDetails: userDetailReducer,
 
-  cart: cartReducer,
   
   favourite: favouriteReducer,
+
+  cart: cartReducer,
+
 
   productList: productListReducer,
   productDetails: productDetailReducer,

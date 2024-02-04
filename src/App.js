@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
+import FavouriteScreen from "./screens/FavouriteScreen";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/product/:id" component={ProductScreen} />
         <Route path="/cart/:id?" component={CartScreen} />
+        <Route path="/favourites/:id?" component={FavouriteScreen} />
       </main>
     </Router>
   );
