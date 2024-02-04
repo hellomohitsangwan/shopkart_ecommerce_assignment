@@ -22,34 +22,23 @@ Welcome to ShopKart, a dynamic Ecommerce application that allows users to add th
 # Screenshots:
 
 
-### Admin's Dashboard
-![alt text](image.png)
+### Home screen
+![alt text](./images/image.png)
 
-![alt text](image-1.png)
+### Login Screen
+![alt text](./images/image-1.png)
 
-![alt text](image-2.png)
+### Sign Up screen
+![alt text](./images/image-5.png)
 
-![alt text](image-3.png)
+### Product detail screen
+![alt text](./images/image-2.png)
 
-![alt text](image-4.png)
+### Cart screen
+![alt text](./images/image-3.png)
 
-
-
-### Advance Comparision page
-![Alt text](./client/images/image.png)
-
-### Create Product Page(Only for admins)
-![Alt text](./client/images/image-6.png)
-
-### Home page
-![Alt text](./client/images/image-2.png)
-
-### Product Details Page
-![Alt text](./client/images/image-3.png)
-
-### Register Page
-![Alt text](./client/images/image-5.png)
-
+### Advance product comparision scrren
+![alt text](./images/image-4.png)
 
 
 ## Tech Stack
@@ -59,6 +48,9 @@ Welcome to ShopKart, a dynamic Ecommerce application that allows users to add th
 - **Authentication:** JWT (JSON Web Tokens) are used for secure user authentication, ensuring a safe and seamless login process.
 
 - **Backend API:** I've used my own API(Hosted on Render) for authentication, getting the products list and details.
+<br>
+API Link: [Shopkart backend API](https://github.com/hellomohitsangwan/procommerce_backend/)
+
 
 
 
