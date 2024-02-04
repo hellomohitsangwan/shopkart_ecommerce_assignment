@@ -35,13 +35,24 @@ const Header = () => {
             <ul className="nav-links">
               {userInfo ? (
                 <div className="info">
+                  <>
+                  <Link style={{ color: "white" }} to="/compare">
+                    Compare
+                  </Link>
+                    <Link style={{ color: "white" }} to="/favourites">
+                      Favourites
+                    </Link>
+                    <Link style={{ color: "white" }} to="/">
+                      Products
+                    </Link>
+                  </>
                   <button className="info-button">
                     Hi! {userInfo.name.split(" ")[0]}{" "}
                     <img src={dropdown} alt="" />
                   </button>
                   <ul>
                     <li>
-                      <Link style={{ color: "white" }} to="/profile">
+                      <Link to="/profile">
                         Profile
                       </Link>
                     </li>
@@ -54,7 +65,9 @@ const Header = () => {
                 </div>
               ) : (
                 <>
-                  <Link style={{ color: "white" }} to="/compare">Compare</Link>
+                  <Link style={{ color: "white" }} to="/compare">
+                    Compare
+                  </Link>
                   <Link style={{ color: "white" }} to="/">
                     Products
                   </Link>

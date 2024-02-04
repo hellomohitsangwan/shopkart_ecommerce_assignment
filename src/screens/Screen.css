@@ -1178,7 +1178,7 @@ footer p {
 .signUp {
   margin-top: 20px;
   border: none;
-  background-color: #6d8b56;
+  /* background-color: #6d8b56; */
 }
 
 .signUp:hover {
