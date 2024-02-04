@@ -61,7 +61,7 @@ function CompareScreen() {
             searchTerm={searchTerm}
             onSearchTermChange={(value) => setSearchTerm(value)}
           />
-          <Button onClick={handleCompare} className="my-3">
+          <Button onClick={handleCompare} className="my-3 cb">
             Search
           </Button>
         </div>

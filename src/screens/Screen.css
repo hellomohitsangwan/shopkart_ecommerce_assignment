@@ -1170,6 +1170,11 @@ footer p {
   font-weight: 600;
 }
 
+.cb {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
 .signUp {
   margin-top: 20px;
   border: none;
@@ -1239,6 +1244,7 @@ html {
 }
 
 .m-wrapper {
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -1247,10 +1253,12 @@ html {
 }
 
 .m-wrapper-left {
+  margin-top: 20px;
   width: 848px;
 }
 
 .m-wrapper-right {
+  margin-top: 40px;
   margin-right: 8px;
 }
 

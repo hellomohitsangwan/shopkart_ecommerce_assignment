@@ -65,14 +65,6 @@ const Login = ({ history }) => {
           </Button>
         </div>
       </Form>
-      {/* <Row className="py-3">
-                    <Col>
-                        New Customer?
-                        <Link to={"/register"}>
-                            <span className="login">Register</span>
-                        </Link>
-                    </Col>
-                </Row> */}
     </div>
   );
 };
