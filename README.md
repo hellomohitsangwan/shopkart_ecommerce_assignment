@@ -17,7 +17,7 @@ Welcome to ShopKart, a dynamic Ecommerce application that allows users to add th
 
 
 
-### Live link: [ShopKart](https://shopkart.netlify.app)
+### Live link: [ShopKart](shopkart08.netlify.app)
 
 # Screenshots:
 
