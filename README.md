@@ -49,7 +49,7 @@ Welcome to ShopKart, a dynamic Ecommerce application that allows users to add th
 
 - **Backend API:** I've used my own API(Hosted on Render) for authentication, getting the products list and details.
 <br>
-API Link: [Shopkart backend API](https://github.com/hellomohitsangwan/procommerce_backend/)
+API Link: [Shopkart backend API](https://github.com/hellomohitsangwan/shopkart-backend)
 
 
 
