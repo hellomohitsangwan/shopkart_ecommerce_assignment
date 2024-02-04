@@ -16,7 +16,12 @@ import {
     async (dispatch) => {
       try {
         dispatch({ type: PRODUCT_LIST_REQUEST });
-        const res = await axios.get(`https://procommerce.onrender.com/api/products?keyword=${keyword}`);
+        const res = await axios.get(`https://procommerce.onrender.com/api/products?keyword=${keyword}`, {
+          headers: {
+            "Access-Control-Allow-Origin": "*"
+          }
+        });
+        
         if (res.status === 500) {
           dispatch({
             type: PRODUCT_LIST_FAIL,
